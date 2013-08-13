@@ -1,0 +1,20 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Gradle ###
+.gradle/
+build/
+out/
+
+### IntelliJ Idea ###
+.idea/
+*.iml
+*.iws
+*.ipr
+
+### Mac ###
+.DS_Store
+

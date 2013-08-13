@@ -1,0 +1,19 @@
+apply plugin: "java"
+apply plugin: "application"
+
+version = '0.1'
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Image Automator', 'Implementation-Version': version
+    }
+}
+mainClassName = "net.forkwait.imageautomator.ImageAutomator"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'net.coobird:thumbnailator:0.4.5'
+    compile 'commons-cli:commons-cli:1.2'
+}
